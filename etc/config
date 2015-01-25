@@ -1,0 +1,4 @@
+# git username and password
+# !@# would be replaced by %21%40%23
+
+usr = https://user:passwd@repository
