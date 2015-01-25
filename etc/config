@@ -8,4 +8,4 @@ usl = https://user:passwd@repository
 
 # credential.helper "cache --timeout"
 git config credential.helper "cache --timeout=X"
-git config credential.helper "store"
+git config credential.helper "store --store=path"
