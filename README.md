@@ -1,3 +1,3 @@
 This is test for git.
 
-# git credentials
+# git credentials at 2015-01-25
