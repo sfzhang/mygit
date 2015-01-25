@@ -6,6 +6,8 @@ usl = https://user:passwd@repository
 [credential "https://github.com"]
     username = sfzhang
 
-# credential.helper "cache --timeout"
+# credential.helper "cache --timeout=x"
 git config credential.helper "cache --timeout=X"
+
+# credential.helper "store --store=path"
 git config credential.helper "store --store=path"
