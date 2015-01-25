@@ -1,4 +1,7 @@
 # git username and password
 # !@# would be replaced by %21%40%23
 
-usr = https://user:passwd@repository
+usl = https://user:passwd@repository
+
+[credential "https://github.com"]
+    username = sfzhang
