@@ -1,0 +1,15 @@
+# git username and password
+# !@# would be replaced by %21%40%23
+
+usl = https://user:passwd@repository
+
+[credential "https://github.com"]
+    username = sfzhang
+
+# credential.helper "cache --timeout=x"
+git config credential.helper "cache --timeout=X"
+
+# credential.helper "store --store=path"
+git config credential.helper "store --store=path"
+
+git config --global credential.helper "store --store=~/Git/.git-credentials"
