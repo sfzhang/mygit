@@ -11,3 +11,5 @@ git config credential.helper "cache --timeout=X"
 
 # credential.helper "store --store=path"
 git config credential.helper "store --store=path"
+
+git config --global credential.helper "store --store=~/Git/.git-credentials"
